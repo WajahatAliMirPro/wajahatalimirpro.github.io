@@ -3,339 +3,102 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Wajahat Ali Mir — Mobile & Android App Developer | Kotlin · Jetpack Compose · FastAPI</title>
-  <meta name="description" content="Wajahat Ali Mir (wajahatalimir) — Android & Mobile App Developer. Kotlin, Jetpack Compose, KMM, Python backend (FastAPI). Production apps, architecture, CI/CD and case studies." />
+  <title>Wajahat Ali Mir — Mobile & Android App Developer (wajahatalimir)</title>
+  <meta name="description" content="Wajahat Ali Mir (wajahatalimir) — Android & Mobile App Developer. Kotlin, Jetpack Compose, KMM, Python backend (FastAPI). Production apps, architecture, and CI/CD." />
   <link rel="canonical" href="https://wajahatalimirpro.github.io/" />
   <meta name="author" content="Wajahat Ali Mir (wajahatalimir)" />
-  <meta name="keywords" content="Wajahat Ali Mir, wajahatalimir, Android developer, Kotlin developer, Jetpack Compose, KMM, FastAPI, mobile apps, CI/CD" />
-  <meta name="robots" content="index,follow" />
-  <meta name="google-site-verification" content="vvCufdwIFwiAC4S4w_YEDQExn0x711cjO9XKDmGAGUc" />
+  <meta name="keywords" content="wajahatalimir, Wajahat Ali Mir, Android developer, Kotlin, Jetpack Compose, KMM, FastAPI, Python, mobile apps, CI/CD" />
+
   <!-- OpenGraph & Twitter -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Wajahat Ali Mir — Mobile & Android App Developer (wajahatalimir)" />
   <meta property="og:description" content="Production Android apps, Kotlin Multiplatform (KMM), backend automation with Python (FastAPI). Contact for freelance and collaboration." />
   <meta property="og:url" content="https://wajahatalimirpro.github.io/" />
-  <meta property="og:image" content="https://raw.githubusercontent.com/WajahatAliMirPro/WajahatAliMirPro/336ae1f4c8e2bc21c3b751adea0fb7f467e4a485/datafiles/city.gif" />
+  <meta property="og:image" content="https://github.com/WajahatAliMirPro/WajahatAliMirPro/raw/336ae1f4c8e2bc21c3b751adea0fb7f467e4a485/datafiles/city.gif" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Wajahat Ali Mir — Mobile & Android App Developer (wajahatalimir)" />
   <meta name="twitter:description" content="Kotlin · Jetpack Compose · KMM · FastAPI · Python. Production apps and backend automation." />
-  <meta name="twitter:image" content="https://raw.githubusercontent.com/WajahatAliMirPro/WajahatAliMirPro/336ae1f4c8e2bc21c3b751adea0fb7f467e4a485/datafiles/city.gif" />
+  <meta name="twitter:image" content="https://github.com/WajahatAliMirPro/WajahatAliMirPro/raw/336ae1f4c8e2bc21c3b751adea0fb7f467e4a485/datafiles/city.gif" />
 
-  <!-- Preconnects & preload critical assets -->
-  <link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin>
-  <link rel="preload" as="image" href="https://raw.githubusercontent.com/WajahatAliMirPro/WajahatAliMirPro/336ae1f4c8e2bc21c3b751adea0fb7f467e4a485/datafiles/city.gif">
+  <!-- Preload hero image -->
+  <link rel="preload" as="image" href="https://github.com/WajahatAliMirPro/WajahatAliMirPro/raw/336ae1f4c8e2bc21c3b751adea0fb7f467e4a485/datafiles/city.gif">
 
-  <!-- Critical inline CSS (kept minimal) -->
+  <!-- lightweight CSS -->
   <style>
-    :root{--bg:#0d1117;--muted:#9aa5b1;--accent:#00FFA6;--text:#e6eef3;--maxw:1100px}
-    html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;background:linear-gradient(180deg,#02040a 0%,var(--bg)100%);color:var(--text);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
-    a{color:var(--accent);text-decoration:none}
-    .wrap{max-width:var(--maxw);margin:28px auto;padding:20px;box-sizing:border-box}
-    header{display:flex;align-items:center;justify-content:space-between;gap:12px}
-    .brand{display:flex;align-items:center;gap:12px}
-    .logo{width:46px;height:46px;border-radius:8px;object-fit:cover}
-    h1{font-size:28px;margin:6px 0;line-height:1.08}
-    .lead{color:var(--muted);max-width:880px;margin:10px auto 16px;line-height:1.6}
-    .cta{margin-top:12px}
-    .btn{display:inline-block;background:var(--accent);color:#001;padding:10px 14px;border-radius:8px;font-weight:700;text-decoration:none;margin:6px}
-    .btn.alt{background:transparent;color:var(--accent);border:1px solid rgba(0,255,166,0.12)}
-    .banner-wrap{position:relative;width:100%;height:320px;margin:18px auto 6px;perspective:1000px}
-    .banner{position:relative;border-radius:10px;overflow:hidden;will-change:transform}
-    .banner img{width:100%;height:100%;object-fit:cover;display:block}
-    .grid{display:grid;gap:16px;margin-top:20px;grid-template-columns:repeat(3,1fr);align-items:start}
-    .card{background:rgba(255,255,255,0.02);padding:14px;border-radius:10px;border:1px solid rgba(255,255,255,0.02);transform-origin:center;will-change:transform,opacity}
-    .card h3{margin:0 0 8px 0;font-size:16px}
-    .skills{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:6px}
-    .skill{background:rgba(255,255,255,0.03);padding:6px 8px;border-radius:999px;font-weight:600;color:var(--muted);font-size:13px}
-    footer{margin-top:28px;color:var(--muted);text-align:center;font-size:13px;padding-bottom:16px}
-    .meta{color:var(--muted);font-size:13px}
-    nav ul{display:flex;gap:12px;list-style:none;padding:0;margin:0}
-    @media (max-width:980px){.grid{grid-template-columns:repeat(2,1fr)}.banner-wrap{height:220px}h1{font-size:22px}}
-    @media (max-width:640px){.grid{grid-template-columns:1fr}.wrap{padding:14px}.banner-wrap{height:160px}.btn{padding:8px 10px}h1{font-size:20px}} 
-    /* visually hidden (accessibility) */
-    .vh{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+    :root{--bg:#0d1117; --muted:#9aa5b1; --accent:#00FFA6; --text:#e6eef3; --maxw:1100px;}
+    html,body{height:100%; margin:0; font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; background:linear-gradient(180deg,#02040a 0%, var(--bg) 100%); color:var(--text); -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;}
+    .wrap{max-width:var(--maxw); margin:28px auto; padding:20px; box-sizing:border-box;}
+    .hero{padding:20px 10px; border-radius:10px; text-align:center; position:relative; overflow:hidden;}
+    h1{font-size:26px; margin:6px 0; line-height:1.2;}
+    p.lead{color:var(--muted); max-width:880px; margin:10px auto 16px auto; line-height:1.6;}
+    .cta{margin-top:12px; display:flex; flex-wrap:wrap; justify-content:center; gap:8px;}
+    .btn{display:inline-block; background:var(--accent); color:#001; padding:10px 14px; border-radius:8px; font-weight:700; text-decoration:none; margin:6px;}
+    .btn.alt{background:transparent; color:var(--accent); border:1px solid rgba(0,255,166,0.12);}
+    .banner-wrap{position:relative; width:100%; margin:18px auto 6px auto;}
+    .banner img{width:100%; height:auto; border-radius:10px; display:block;}
+    .grid{display:grid; gap:16px; margin-top:20px; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); align-items:start;}
+    .card{background:rgba(255,255,255,0.02); padding:14px; border-radius:10px; border:1px solid rgba(255,255,255,0.02);}
+    .card h3{margin:0 0 8px 0; font-size:16px;}
+    .skills{display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin-top:6px;}
+    .skill{background:rgba(255,255,255,0.03); padding:6px 8px; border-radius:999px; font-weight:600; color:var(--muted); font-size:13px;}
+    footer{margin-top:28px; color:var(--muted); text-align:center; font-size:13px; padding-bottom:16px;}
+    @media (max-width:640px){ .wrap{padding:14px} h1{font-size:20px;} .cta{flex-direction:column;} }
   </style>
-
-  <!-- Structured data JSON-LD: Person, WebSite, WebPage, Service, FAQ, SoftwareSourceCode, BreadcrumbList -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Person",
-        "@id": "https://wajahatalimirpro.github.io/#person",
-        "name": "Wajahat Ali Mir",
-        "alternateName": "wajahatalimir",
-        "url": "https://wajahatalimirpro.github.io/",
-        "sameAs": [
-          "https://github.com/WajahatAliMirPro",
-          "https://www.mrwajahatalimir.com",
-          "https://github.com/wajaht-ali",
-          "https://www.linkedin.com/in/wajahatalimirpro",
-          "https://x.com/mrwajahatalimir",
-          "https://www.pinterest.com/mrwajahatalimir",
-          "mailto:mrwajahatalimir@gmail.com",
-          "https://wa.me/923700882006"
-        ],
-        "jobTitle": "Android & Mobile App Developer",
-        "worksFor": {"@type":"Organization","name":"Independent / Freelance"},
-        "description": "Android developer building modern mobile apps with Kotlin, Jetpack Compose, and Kotlin Multiplatform. Backend automation and APIs using Python and FastAPI.",
-        "knowsAbout": ["Kotlin","Jetpack Compose","KMM","Android Architecture","FastAPI","CI/CD"],
-        "contactPoint": {"@type":"ContactPoint","contactType":"business","email":"mrwajahatalimir@gmail.com","availableLanguage":["English","Urdu"]}
-      },
-      {
-        "@type":"WebSite",
-        "@id":"https://wajahatalimirpro.github.io/#website",
-        "url":"https://wajahatalimirpro.github.io/",
-        "name":"Wajahat Ali Mir — Mobile & Android App Developer",
-        "publisher": {"@id":"https://wajahatalimirpro.github.io/#person"}
-      },
-      {
-        "@type":"WebPage",
-        "@id":"https://wajahatalimirpro.github.io/#webpage",
-        "url":"https://wajahatalimirpro.github.io/",
-        "name":"Home — Wajahat Ali Mir",
-        "isPartOf": {"@id":"https://wajahatalimirpro.github.io/#website"}
-      },
-      {
-        "@type":"Service",
-        "serviceType":"Mobile App Development",
-        "name":"Android & Mobile App Development — Kotlin, Jetpack Compose, KMM",
-        "provider": {"@id":"https://wajahatalimirpro.github.io/#person"},
-        "description":"End-to-end mobile app development, architecture, and backend integration. Kotlin, KMM, Jetpack Compose, FastAPI backends, CI/CD.",
-        "areaServed":"Worldwide"
-      },
-      {
-        "@type":"FAQPage",
-        "mainEntity": [
-          {"@type":"Question","name":"How do I hire Wajahat?","acceptedAnswer":{"@type":"Answer","text":"Email mrwajahatalimir@gmail.com or use the contact form on this site. Typical process: discovery → scope → proposal → delivery."}},
-          {"@type":"Question","name":"What tech stacks does he use?","acceptedAnswer":{"@type":"Answer","text":"Primary: Kotlin, Jetpack Compose, KMM for clients; Python (FastAPI) for backends. CI/CD via GitHub Actions."}}
-        ]
-      },
-      {
-        "@type":"SoftwareSourceCode",
-        "name":"Buy-Own-Car",
-        "codeRepository":"https://github.com/WajahatAliMirPro/Buy-Own-Car",
-        "programmingLanguage":"Kotlin",
-        "author":{"@id":"https://wajahatalimirpro.github.io/#person"}
-      },
-      {
-        "@type":"BreadcrumbList",
-        "itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://wajahatalimirpro.github.io/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://wajahatalimirpro.github.io/#projects"},{"@type":"ListItem","position":3,"name":"Contact","item":"https://wajahatalimirpro.github.io/#contact"}]
-      }
-    ]
-  }
-  </script>
-
-  <!-- Defer non-critical JS & tiny helper (keeps page interactive but fast) -->
-  <script defer>
-    // minimal DOM helper & lazyloader for media
-    (function(){
-      // Accessibility: enable keyboard focus outline when navigating by keyboard
-      window.addEventListener('keydown', function(e){ if(e.key==='Tab') document.documentElement.classList.add('show-focus'); }, {once:true});
-
-      // Lazy-loading polyfill for images/videos using IntersectionObserver
-      function lazyLoadMedia() {
-        const configs = {rootMargin: '200px 0px'};
-        const io = new IntersectionObserver((entries, obs) => {
-          entries.forEach(entry => {
-            if (!entry.isIntersecting) return;
-            const el = entry.target;
-            if(el.dataset.src){ el.src = el.dataset.src; el.removeAttribute('data-src'); }
-            if(el.dataset.srcset){ el.srcset = el.dataset.srcset; el.removeAttribute('data-srcset'); }
-            if(el.dataset.poster){ el.poster = el.dataset.poster; el.removeAttribute('data-poster'); }
-            if(el.tagName === 'VIDEO'){
-              // load sources inside video
-              const sources = el.querySelectorAll('source[data-src]');
-              sources.forEach(s => { s.src = s.dataset.src; s.removeAttribute('data-src'); });
-              el.load();
-            }
-            obs.unobserve(el);
-          });
-        }, configs);
-
-        document.querySelectorAll('img[data-src],video[data-src],source[data-src]').forEach(n => io.observe(n));
-      }
-      document.addEventListener('DOMContentLoaded', lazyLoadMedia);
-    })();
-  </script>
-
 </head>
 <body>
   <main class="wrap" role="main" aria-labelledby="main-heading">
-    <header>
-      <div class="brand">
-        <img class="logo" src="https://raw.githubusercontent.com/WajahatAliMirPro/WajahatAliMirPro/336ae1f4c8e2bc21c3b751adea0fb7f467e4a485/datafiles/city_thumb.webp" alt="Wajahat Ali Mir — avatar" loading="lazy" decoding="async">
-        <div>
-          <div class="meta">Android & Mobile App Developer</div>
-          <h1 id="main-heading">Wajahat Ali Mir — Mobile & Android App Developer (wajahatalimir)</h1>
-        </div>
-      </div>
-
-      <nav aria-label="Primary navigation">
-        <ul>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
     <section class="hero" aria-describedby="hero-desc">
       <p style="font-family:'Noto Naskh Arabic', serif; font-size:18px; margin:0 0 6px 0;">بِسْمِ ٱللّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
-      <p id="hero-desc" class="lead">
-        I build production mobile applications and backend automation: Kotlin (Jetpack Compose & KMM), Android architecture (MVVM/Clean), and Python backend services (FastAPI). I help teams ship performant apps, optimize releases, and automate workflows.
-      </p>
-
+      <h1 id="main-heading">Wajahat Ali Mir — Mobile & Android App Developer (wajahatalimir)</h1>
+      <p id="hero-desc" class="lead">I build production mobile applications and backend automation: Kotlin (Jetpack Compose & KMM), Android architecture (MVVM/Clean), and Python backend services (FastAPI). I help teams ship performant apps, optimize releases, and automate workflows.</p>
       <div class="cta" role="group" aria-label="primary actions">
-        <a class="btn" href="https://github.com/WajahatAliMirPro" rel="noopener" target="_blank">Visit my GitHub profile</a>
+        <a class="btn" href="https://github.com/WajahatAliMirPro" target="_blank" rel="noopener">Visit my GitHub profile</a>
         <a class="btn alt" href="#projects">Explore projects</a>
         <a class="btn alt" href="#contact">Contact</a>
       </div>
-
-      <div class="banner-wrap" aria-hidden="false">
-        <div class="banner" id="banner" role="img" aria-label="Animated city banner — Wajahat Ali Mir">
-          <!-- use data-src for lazy loading the large gif; small thumb used as initial src -->
-          <img
-            src="https://raw.githubusercontent.com/WajahatAliMirPro/WajahatAliMirPro/336ae1f4c8e2bc21c3b751adea0fb7f467e4a485/datafiles/city_thumb.webp"
-            data-src="https://raw.githubusercontent.com/WajahatAliMirPro/WajahatAliMirPro/336ae1f4c8e2bc21c3b751adea0fb7f467e4a485/datafiles/city.gif"
-            alt="Wajahat Ali Mir — animated city banner (Android developer)"
-            width="1600" height="600" decoding="async" loading="eager">
+      <div class="banner-wrap">
+        <div class="banner">
+          <img src="https://github.com/WajahatAliMirPro/WajahatAliMirPro/raw/336ae1f4c8e2bc21c3b751adea0fb7f467e4a485/datafiles/city.gif" alt="Wajahat Ali Mir — animated city banner" loading="lazy" />
         </div>
       </div>
     </section>
 
     <section id="projects" style="margin-top:20px;">
-      <h2 style="text-align:center;margin-bottom:10px;">Featured projects & case studies</h2>
-
-      <div class="grid" id="cards">
-        <!-- Project 1: Buy-Own-Car (case study) -->
-        <article class="card" id="proj1" tabindex="0" aria-labelledby="proj1-title">
-          <h3 id="proj1-title"><a class="project-link" href="https://github.com/WajahatAliMirPro/Buy-Own-Car" target="_blank" rel="noopener">Buy-Own-Car — Android app</a></h3>
-          <p class="meta">Kotlin · Jetpack Compose · Room · Retrofit · WorkManager</p>
-          <p style="color:var(--muted);">Case study: A production-ready Android marketplace app for car listings. Problem: slow listing sync and inconsistent offline UX. Solution: implemented Room with proper caching strategies, WorkManager for background sync, performant Compose UI with incremental loading. Result: 10–15% faster cold loads, reliable offline browsing, and reduced server requests via smart caching.</p>
-          <p class="meta">Highlights: Offline-first sync • Background jobs • Unit & instrumentation tests</p>
-          <p><a href="#contact" class="btn alt">Get a similar app</a></p>
+      <h2 style="text-align:center; margin-bottom:10px;">Featured projects & case studies</h2>
+      <div class="grid">
+        <article class="card">
+          <h3><a href="https://github.com/WajahatAliMirPro/Buy-Own-Car" target="_blank">Buy-Own-Car — Android app</a></h3>
+          <p style="color:var(--muted)">A production Android app built with Kotlin and Jetpack Compose. Highlights: Compose UI, Room persistence, Retrofit integration, and WorkManager background sync.</p>
+          <p style="color:var(--muted)"><strong>Skills:</strong> Kotlin · Jetpack Compose · Room · Retrofit · WorkManager</p>
         </article>
 
-        <!-- Project 2: Buy_a_Car (backend + client) -->
-        <article class="card" id="proj2" tabindex="0" aria-labelledby="proj2-title">
-          <h3 id="proj2-title"><a class="project-link" href="https://github.com/WajahatAliMirPro/Buy_a_Car" target="_blank" rel="noopener">Buy_a_Car — Server + client</a></h3>
-          <p class="meta">FastAPI · Python · PostgreSQL · JWT · Docker</p>
-          <p style="color:var(--muted);">Case study: Built a FastAPI backend to serve mobile clients with secure auth, paginated search, and file uploads. Used Redis for worker queues, Postgres for relational storage, and Docker/GitHub Actions for CI/CD. Result: scalable backend with automated deployments and zero-downtime migrations.</p>
-          <p class="meta">Highlights: CI/CD • Secure auth • Background tasks</p>
+        <article class="card">
+          <h3><a href="https://github.com/WajahatAliMirPro/Buy_a_Car" target="_blank">Buy_a_Car — Server + client</a></h3>
+          <p style="color:var(--muted)">Backend and client showing FastAPI-powered REST API with auth, search, and listing management. Clean separation between UI and backend.</p>
+          <p style="color:var(--muted)"><strong>Skills:</strong> FastAPI · Python · REST · JWT · SQLite/Postgres</p>
         </article>
 
-        <!-- Project 3: kmp (Kotlin Multiplatform) -->
-        <article class="card" id="proj3" tabindex="0" aria-labelledby="proj3-title">
-          <h3 id="proj3-title"><a class="project-link" href="https://github.com/WajahatAliMirPro/kmp" target="_blank" rel="noopener">kmp — Kotlin Multiplatform samples</a></h3>
-          <p class="meta">KMM · Shared logic · Unit testing</p>
-          <p style="color:var(--muted);">Samples and patterns to share business logic between Android and other Kotlin targets. Includes architecture notes, unit tests, and interoperability tips for gradual migration to multiplatform.</p>
+        <article class="card">
+          <h3><a href="https://github.com/WajahatAliMirPro/kmp" target="_blank">kmp — Kotlin Multiplatform samples</a></h3>
+          <p style="color:var(--muted)">Kotlin Multiplatform samples demonstrating shared business logic and integration patterns.</p>
+          <p style="color:var(--muted)"><strong>Skills:</strong> KMM · Multiplatform architecture · Unit testing</p>
         </article>
-      </div>
-
-      <!-- call to action & additional projects -->
-      <div style="margin-top:18px;text-align:center">
-        <a class="btn" href="https://github.com/WajahatAliMirPro?tab=repositories" target="_blank" rel="noopener">View all repositories on GitHub</a>
       </div>
     </section>
 
-    <section id="services" style="margin-top:26px;text-align:center;">
-      <h2>Services</h2>
-      <p class="lead">End-to-end mobile development: app architecture, UI/UX with Jetpack Compose, Kotlin Multiplatform integration, backend APIs with FastAPI, and production CI/CD pipelines.</p>
-
+    <section id="skills" style="margin-top:26px; text-align:center;">
+      <h2>Technical skills & tools</h2>
       <div class="skills" aria-label="technical skills">
         <span class="skill">Kotlin</span><span class="skill">Jetpack Compose</span><span class="skill">KMM</span><span class="skill">Android</span>
         <span class="skill">Coroutines</span><span class="skill">Room</span><span class="skill">Retrofit</span><span class="skill">Python</span>
-        <span class="skill">FastAPI</span><span class="skill">Postgres</span><span class="skill">GitHub Actions</span><span class="skill">CI/CD</span>
-      </div>
-
-      <div style="display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:12px;">
-        <div class="card">
-          <h3>App Architecture & Consulting</h3>
-          <p class="meta">Design scalable app architecture, schema, and release plan.</p>
-          <p style="color:var(--muted);">Deliverables: architecture diagram, tech choices, migration plan, performance checklist.</p>
-        </div>
-        <div class="card">
-          <h3>Full App Development</h3>
-          <p class="meta">Kotlin / Compose / KMM</p>
-          <p style="color:var(--muted);">End-to-end deliveries with tests, CI/CD, and Play Store release support.</p>
-        </div>
-        <div class="card">
-          <h3>Backend & Automation</h3>
-          <p class="meta">Python / FastAPI / CI</p>
-          <p style="color:var(--muted);">APIs, worker queues, automated deployments, and monitoring integration.</p>
-        </div>
+        <span class="skill">FastAPI</span><span class="skill">SQLite</span><span class="skill">GitHub Actions</span><span class="skill">CI/CD</span>
       </div>
     </section>
 
-    <section id="blog" style="margin-top:26px;">
-      <h2 style="text-align:center">Latest blog & resources</h2>
-      <div style="display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:12px;">
-        <article class="card">
-          <h3><a href="#post1">Why Jetpack Compose is the fastest way to modernize Android UI (2025)</a></h3>
-          <p class="meta">March 10, 2025 • 8 min read</p>
-          <p style="color:var(--muted);">A practical guide to migrating screens to Compose, handling state, and optimizing recompositions for performance.</p>
-        </article>
-        <article class="card">
-          <h3><a href="#post2">Building FastAPI backends for mobile apps</a></h3>
-          <p class="meta">Jan 18, 2025 • 7 min read</p>
-          <p style="color:var(--muted);">Patterns for authentication, pagination, and background workers when serving mobile clients.</p>
-        </article>
-      </div>
-      <p style="text-align:center;margin-top:12px;"><a class="btn alt" href="#contact">Work with me — let's build</a></p>
-    </section>
-
-    <section id="media" style="margin-top:26px;">
-      <h2 style="text-align:center">Media & Demos (lazy-loaded)</h2>
-      <div style="display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));">
-        <div class="card">
-          <h3>App demo video</h3>
-          <video controls width="100%" height="180" data-src="" preload="metadata" poster="https://raw.githubusercontent.com/WajahatAliMirPro/WajahatAliMirPro/336ae1f4c8e2bc21c3b751adea0fb7f467e4a485/datafiles/demo_poster.webp">
-            <!-- source tags use data-src for lazy loading; replace with your hosted mp4/webm URLs -->
-            <source data-src="/media/buy-own-car-demo.mp4" type="video/mp4">
-            <p class="meta">Your browser does not support HTML5 video. <a href="/media/buy-own-car-demo.mp4">Download</a></p>
-          </video>
-        </div>
-
-        <div class="card">
-          <h3>Screenshots</h3>
-          <img data-src="https://raw.githubusercontent.com/WajahatAliMirPro/WajahatAliMirPro/HEAD/datafiles/screen1.webp" alt="Buy-Own-Car screenshot" width="600" height="320" loading="lazy" decoding="async">
-          <p class="meta">Tap to view full gallery on GitHub.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="faq" style="margin-top:26px;">
-      <h2 style="text-align:center">FAQ</h2>
-      <div style="display:grid;gap:8px;max-width:880px;margin:10px auto">
-        <details>
-          <summary><strong>How long does it take to build a typical Android app?</strong></summary>
-          <p style="color:var(--muted);">Depending on complexity: 4–10 weeks for an MVP. We do discovery first, then phased delivery with milestones.</p>
-        </details>
-        <details>
-          <summary><strong>Do you provide post-launch maintenance?</strong></summary>
-          <p style="color:var(--muted);">Yes — maintenance and crash monitoring packages are available. I also set up automated release pipelines for quick updates.</p>
-        </details>
-      </div>
-    </section>
-
-    <section id="contact" style="margin-top:26px;text-align:center;">
+    <section id="contact" style="margin-top:26px; text-align:center;">
       <h2>Contact & hire</h2>
-      <p class="meta">Email: <a href="mailto:mrwajahatalimir@gmail.com">mrwajahatalimir@gmail.com</a> • LinkedIn: <a href="https://www.linkedin.com/in/wajahatalimirpro">WajahatAliMirPro</a></p>
-
-      <!-- simple contact form that opens mail client (works without server). Replace action with a server endpoint or Formspree if you have one -->
-      <form id="contactForm" onsubmit="return sendMail(event)" style="max-width:720px;margin:12px auto;text-align:left;">
-        <label class="vh" for="name">Name</label>
-        <input id="name" name="name" placeholder="Your name" required style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--text);margin-bottom:8px">
-        <label class="vh" for="email">Email</label>
-        <input id="email" name="email" type="email" placeholder="you@company.com" required style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--text);margin-bottom:8px">
-        <label class="vh" for="message">Message</label>
-        <textarea id="message" name="message" rows="5" placeholder="Project details or inquiry" required style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--text);margin-bottom:8px"></textarea>
-        <div style="text-align:right"><button class="btn" type="submit">Send inquiry</button></div>
-      </form>
-
+      <p style="color:var(--muted)">Email: <a href="mailto:mrwajahatalimir@gmail.com">mrwajahatalimir@gmail.com</a> • LinkedIn: <a href="https://www.linkedin.com/in/wajahatalimirpro">WajahatAliMirPro</a></p>
+      <p style="margin-top:6px;"><a class="btn" href="mailto:mrwajahatalimir@gmail.com">Email me</a> <a class="btn alt" href="https://github.com/WajahatAliMirPro" target="_blank">Open my GitHub profile</a></p>
     </section>
 
     <footer>
@@ -343,46 +106,8 @@
     </footer>
   </main>
 
-  <!-- small interactive & form helper -->
-  <script defer>
+  <script>
     document.getElementById('year').textContent = new Date().getFullYear();
-
-    // contact form fallback: opens mail client with prefilled subject/body
-    function sendMail(e){
-      e.preventDefault();
-      const name = document.getElementById('name').value.trim();
-      const email = document.getElementById('email').value.trim();
-      const message = document.getElementById('message').value.trim();
-      const subject = encodeURIComponent('Project inquiry from '+name);
-      const body = encodeURIComponent('Name: '+name+'\nEmail: '+email+'\n\nMessage:\n'+message+'\n\n--\nSource: wajahatalimirpro.github.io');
-      window.location.href = 'mailto:mrwajahatalimir@gmail.com?subject='+subject+'&body='+body;
-      return false;
-    }
-
-    // small enhancement: smooth scroll for in-page nav
-    document.querySelectorAll('a[href^="#"]').forEach(a=>{
-      a.addEventListener('click', function(ev){
-        const href = this.getAttribute('href');
-        if(href.length>1){
-          ev.preventDefault();
-          document.querySelector(href).scrollIntoView({behavior:'smooth',block:'start'});
-          history.replaceState(null,'',href);
-        }
-      });
-    });
-
-    // optional: small parallax on banner (very light)
-    try{
-      const banner = document.getElementById('banner');
-      if(banner){
-        window.addEventListener('scroll', ()=>{
-          const rect = banner.getBoundingClientRect();
-          const pct = Math.max(-0.5, Math.min(1.5, (window.innerHeight - rect.top) / (window.innerHeight + rect.height)));
-          banner.style.transform = `translateY(${-(pct*8)}px)`;
-        }, {passive:true});
-      }
-    }catch(e){console.warn(e)}
   </script>
-
 </body>
 </html>
