@@ -1,1 +1,0 @@
-# wajahatalimirpro.github.io
