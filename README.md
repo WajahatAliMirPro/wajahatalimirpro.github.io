@@ -1,7 +1,7 @@
 ﻿<div align="center">
 
 <p align="center" dir="rtl" style="font-size: 20px; font-family: 'Noto Naskh Arabic', serif; margin: 0; color: #00e727ff;">
-  Ø¨ÙØ³Ù’Ù…Ù Ù±Ù„Ù„Ù‘Ù°Ù‡Ù Ù±Ù„Ø±ÙŽÙ‘Ø­Ù’Ù…ÙŽÙ°Ù†Ù Ù±Ù„Ø±ÙŽÙ‘Ø­ÙÙŠÙ…Ù
+  بِسْمِ ٱللّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
 </p>
 
 <br />
@@ -44,14 +44,14 @@
 
 <br />
 
-[View Demo](#) Â· [Report Bug](#) Â· [Request Feature](#)
+[View Demo](#) · [Report Bug](#) · [Request Feature](#)
 
 </div>
 
 ---
 
 <!-- ABOUT THE PROJECT -->
-## ðŸ“ About The Project
+## 📍 About The Project
 
 <!-- SCREENSHOT -->
 <div align="center">
@@ -64,20 +64,20 @@
 
 Whether you are looking to [Benefit 1], [Benefit 2], or simply explore a robust codebase, **[Project Name]** stands as a testament to precision engineering.
 
-### ðŸŒŸ Key Features
+### 🌟 Key Features
 
 | Feature | Description |
 | :--- | :--- |
-| **âš¡ Blazing Fast** | Optimized for sub-second load times and 60fps interactions. |
-| **ðŸ›¡ï¸ Secure Core** | Built with industry-standard security protocols and data encryption. |
-| **ðŸ“± Responsive** | Flawless experience across Mobile, Tablet, and Desktop. |
-| **ðŸ”Œ Extensible** | Modular architecture allowing easy plugin and feature integration. |
-| **â˜ï¸ Cloud Ready** | Dockerized and ready for deployment on AWS, Vercel, or Google Cloud. |
+| **⚡ Blazing Fast** | Optimized for sub-second load times and 60fps interactions. |
+| **🛡️ Secure Core** | Built with industry-standard security protocols and data encryption. |
+| **📱 Responsive** | Flawless experience across Mobile, Tablet, and Desktop. |
+| **🔌 Extensible** | Modular architecture allowing easy plugin and feature integration. |
+| **☁️ Cloud Ready** | Dockerized and ready for deployment on AWS, Vercel, or Google Cloud. |
 
 ---
 
 <!-- TECH STACK -->
-## ðŸ› ï¸ Technical Architecture
+## 🛠️ Technical Architecture
 
 This project is built using a high-performance technology stack:
 
@@ -89,7 +89,7 @@ This project is built using a high-performance technology stack:
 ---
 
 <!-- GETTING STARTED -->
-## ðŸš€ Getting Started
+## 🚀 Getting Started
 
 Follow these steps to set up the project locally.
 
@@ -120,7 +120,7 @@ Follow these steps to set up the project locally.
 ---
 
 <!-- ROADMAP -->
-## ðŸ—ºï¸ Roadmap
+## 🗺️ Roadmap
 
 - [x] Initial Release & Core Features
 - [ ] Add User Authentication System
@@ -133,7 +133,7 @@ See the [open issues](https://github.com/wajahatalimirpro/[repo-name]/issues) fo
 ---
 
 <!-- CONTRIBUTING -->
-## ðŸ¤ Contributing
+## 🤝 Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -146,14 +146,14 @@ Contributions are what make the open-source community such an amazing place to l
 ---
 
 <!-- LICENSE -->
-## ðŸ“œ License
+## 📜 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
 <!-- CONTACT -->
-## ï¿½â€ðŸ’» About the Author
+## �‍💻 About the Author
 
 <div align="center">
 
